@@ -1,0 +1,462 @@
+@media only screen and (max-width: 1280px){
+    .container{
+        width: 930px;
+    }
+    .hover{
+        width: 190px;
+        height: 190px;
+    }
+    .img-cate-1{
+        height: 200px;
+        margin-top: 5px;
+    }
+    .img-social img{
+        width: 210px;
+    }
+    .input-footer-2{
+        width: 200px !important;
+    }
+    .input-in-footer{
+        width: 500px !important;
+        /* background-color: black; */
+    }
+    .btn-in-footer button{
+        width: 219px;
+    }
+    .header-right{
+        width: auto;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sk-1{
+        width: 75px;
+        height: 70px;
+        margin-top: 200px;
+    }
+    .flex-foot{
+        margin-right: 20px;
+    }
+    .yellow{
+        display: flex;
+    }
+    .header-left{
+        width: auto;
+    }
+    .about-left h1{
+        font-size: 60px;
+    }
+    .logo{
+        margin-right: 30px;
+    }
+    .header-number{
+        display: none;
+    }
+    .big{
+        font-size: 52px;
+    }
+    .jc{
+        display: none;
+    }
+    .about-num-desc{
+        font-size: 22px;
+    }
+    .grid{
+    grid-template-columns: repeat(2, 1fr);
+    /* margin-top: 20px; */
+
+    }
+    .margin-right{
+        margin-top: 10px;
+    }
+    .ads{
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 1200px){
+    .about-num-wrap{
+    grid-template-columns: repeat(2, 1fr);
+    
+    }
+}
+@media only screen and (max-width: 1030px){
+    .container{
+        width: 608px;
+    }
+    .header-menu-img{
+        display: flex;
+    }
+    .ads-container{
+        width: 508px;
+    }
+    .delete-1000{
+        display: none;
+    }
+    .about-left h1{
+        font-size: 45px;
+    }
+    .about-courses-wrap{
+        width: 100%;
+    }
+    .img-social{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .about-video-wrap{
+        height: 220px;
+        width: 220px;
+    }
+    .categories{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-bottom: 800px;
+        width: 500px;
+        /* position: relative;   */
+    }
+    .footer-form-left h1{
+        font-size: 25px;
+        line-height: 32px;
+    }
+    .footer-form-left p{
+        font-size: 15px;
+    }
+    .none{
+        display: none;
+    }
+    .categories-img{
+        display: flex;
+        width: 700px;
+        position: relative;
+    }
+    .student-wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+    .about-num h2{
+        font-size: 25px;
+        width: 100%;
+    }
+    .about-num-wrap{
+        width: 100%;
+    }
+    .pos{
+        position: absolute;
+        right: 0;
+        top: 90px;
+        display: block;
+    }
+    .input-in-footer{
+        width: 300px !important;
+        display: block;
+    }
+    .input-footer-2{
+        width: 80px;
+        display: block;
+        margin-top: 10px;
+    }
+    .input-in-footer-2{
+        display: block;
+        margin-top: 20px;
+    }
+    .footer-form-wrap{
+        padding: 20px;
+    }
+    .text-and-btn-footer{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 40px;
+        width: 350px;
+    }
+    .text-in-footer{
+        width: 340px !important;
+    }
+    .btn-in-footer{
+        margin-left: -25px;
+    }
+    .grid-foot{
+        grid-column: 2/1;
+    }
+    .footer-footer{
+        display: none;
+    }
+    .ads-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .ads-container{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 770px){
+    .about-num-wrap{
+        grid-template-columns: repeat(2, 1fr);    
+    }
+    .container{
+        width: 708px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+}
+@media only screen and (max-width: 768px){
+    .container {
+        width: 708px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .about-num h2 {
+        font-size: 20px;
+        width: 100%;
+    }
+    .about-num-desc{
+        font-size: 20px;
+
+    }
+    .about-left h1 {
+        font-size: 30px;
+        align-items: flex-start;
+    }
+    .about-video-wrap{
+        margin: 0 auto;
+    }
+    .about-num-wrap{
+        grid-template-columns: repeat(1, 1fr);    
+    }
+    .about-left-top{
+        flex-direction: column-reverse;
+    }
+    .catalog{
+        grid-template-columns: 1fr;
+        grid-auto-rows: max-content;
+    }
+    .catalog-item p{
+        width: 98%;
+    }
+    .catalog-item button{
+        width: 90%;
+        height: 56px;
+    } 
+    .about-num-desc span{
+        display: none;
+    }
+    .about-courses p{
+        font-size: 13px;
+    }
+    .about-courses-item{
+        font-weight: 600;
+    }
+    .student-wrap{
+        grid-template-columns: 2fr;
+        grid-auto-rows: 750px;
+    }
+    .margin-right{
+        display: none;
+    }
+    .input-footer{
+        margin-top: 20px;
+    }
+    .img-cate{
+        width: 100px;
+        height: 100px;
+    }
+    .img-cate-1{
+        width: 100px;
+        height: 100px;
+    }
+    .categories-img{
+        border-top: 1px solid #82828298;
+        /* border-bottom: 1px solid #82828298; */
+    }
+    .categories-img-3{
+        border-bottom: 1px solid #82828298;
+    }
+    .img-cate-2{
+        width: 100px;
+        height: 100px;
+    }
+    .pos{
+        top: 50px;
+    }
+    .categories{
+        margin-bottom: 200px;
+        
+    }
+    .flex-foot{
+        display: none;
+    }
+    .footer-form-wrap{
+        display: block;
+        height: 473px;
+    }
+    .input-footer{
+        margin-left: 0;
+    }
+    .input-footer-1{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .input-footer-2{
+        width: 100%!important;
+        margin-top: 20px;
+    }
+    .input-in-footer-2{
+        width: 100%!important;
+    }
+    .input-in-footer{
+        width: 100% !important;
+    }
+    .footer-form-left br{
+        display: none;
+    }
+    .btn-in-footer{
+        width: 100% !important;
+    }
+    .btn-in-footer{
+        margin-bottom: 10px;
+    } 
+    .footer-form-left{
+        width: 600px !important;
+    }
+    .img-social{
+        grid-template-columns: 1fr 1fr;
+    }
+    footer{
+        width: 700px !important;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .container{
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+}
+@media only screen and (max-width: 700px){
+    .pos{
+        right: 30px;
+    }
+    .img-social{
+        margin: 0 auto;
+    }
+    .categories-img{
+        width: 610px;
+    }
+    .about-num-item{
+        width: 98% !important;
+    }
+    .input-footer-1{
+        margin: 0 auto;
+    }
+    .input-footer-2{
+        margin-top: 30px;
+    }
+    footer{
+        width: 100% !important;
+    }
+    .footer-form-wrap{
+        width: 98%;
+        height: 500px;
+    }
+}
+@media only screen and (max-width: 620px){
+    .footer-form-left p{
+        width: 420px;
+    }
+    .footer-form-left{
+        width: 100% !important;
+    }
+    .social h1{
+        font-size: 27px;
+    }
+    .student h1{
+        font-size: 27px;
+    }
+    .categories-img{
+        width: 100%;
+    }
+    .big{
+        font-size: 27px;
+    }
+}
+@media only screen and (max-width: 580px){
+    .categories{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .footer-form-left p {
+        width: 374px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .footer-form-left p{
+        width: 336px;
+    }
+}
+@media only screen and (max-width: 380px){
+    .footer-form-left p{
+        width: 294px;
+    }
+    .img-social{
+        margin-top: 20px;
+        grid-auto-rows: 70px !important;
+    }
+    .img-social img{
+        width: 130px;
+    }
+
+}
+@media only screen and (max-width: 350px){
+    .footer-form-left p{
+        width: 270px;
+    }
+}
+@media only screen and (max-width: 320px){
+    .footer-form-left p{
+        width: 240px;
+    }
+    .text-in-footer{
+        width: 222px !important;
+    }
+    .footer-form-wrap{
+        height: 550px !important;
+    }
+    body{
+        padding-bottom: 0;
+    }
+    footer{
+        padding-bottom: 0;
+    }
+    .container{
+        width: 320px;
+    }
+    .footer-form-wrap{
+        width: 90%;
+    }
+    .footer-form-wrap{
+        width: 270px;
+    }
+    .pos{
+        display: none;
+    }
+    .catalog-item{
+        width: 270px !important;
+    }
+    .about-num-item{
+        width: 270px !important;
+    }
+    .about-num h2{
+        width: 280px;
+    }
+    .container{
+        width: 280px;
+    }
+    .footer-form-wrap {
+        height: 570px !important;
+    }
+}
+
+
